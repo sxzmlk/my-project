@@ -1,0 +1,45 @@
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*.suo
+*.user
+
+# 依赖 / 构建产物
+node_modules/
+dist/
+build/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+target/
+*.class
+
+# 日志 / 临时
+*.log
+tmp/
+temp/
+*.tmp
+*.bak
+
+# 环境与密钥
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 压缩包
+*.zip
+*.tar.gz
+*.7z
